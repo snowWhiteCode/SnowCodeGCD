@@ -101,6 +101,7 @@
 		153EEC23207C9B9F0063A3AC /* SnowCodeGCD */ = {
 			isa = PBXGroup;
 			children = (
+				153EEC56207C9BC00063A3AC /* SnowCodeGCD */,
 				153EEC24207C9B9F0063A3AC /* AppDelegate.h */,
 				153EEC25207C9B9F0063A3AC /* AppDelegate.m */,
 				153EEC27207C9B9F0063A3AC /* ViewController.h */,
@@ -130,6 +131,13 @@
 				153EEC4A207C9B9F0063A3AC /* Info.plist */,
 			);
 			path = SnowCodeGCDUITests;
+			sourceTree = "<group>";
+		};
+		153EEC56207C9BC00063A3AC /* SnowCodeGCD */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SnowCodeGCD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
