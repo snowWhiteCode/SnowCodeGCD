@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		153EEC26207C9B9F0063A3AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 153EEC25207C9B9F0063A3AC /* AppDelegate.m */; };
+		153EEC29207C9B9F0063A3AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 153EEC28207C9B9F0063A3AC /* ViewController.m */; };
+		153EEC2C207C9B9F0063A3AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 153EEC2A207C9B9F0063A3AC /* Main.storyboard */; };
+		153EEC2E207C9B9F0063A3AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 153EEC2D207C9B9F0063A3AC /* Assets.xcassets */; };
+		153EEC31207C9B9F0063A3AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 153EEC2F207C9B9F0063A3AC /* LaunchScreen.storyboard */; };
+		153EEC34207C9B9F0063A3AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 153EEC33207C9B9F0063A3AC /* main.m */; };
+		153EEC3E207C9B9F0063A3AC /* SnowCodeGCDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 153EEC3D207C9B9F0063A3AC /* SnowCodeGCDTests.m */; };
+		153EEC49207C9B9F0063A3AC /* SnowCodeGCDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 153EEC48207C9B9F0063A3AC /* SnowCodeGCDUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		153EEC3A207C9B9F0063A3AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 153EEC19207C9B9F0063A3AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 153EEC20207C9B9F0063A3AC;
+			remoteInfo = SnowCodeGCD;
+		};
+		153EEC45207C9B9F0063A3AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 153EEC19207C9B9F0063A3AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 153EEC20207C9B9F0063A3AC;
+			remoteInfo = SnowCodeGCD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		153EEC21207C9B9F0063A3AC /* SnowCodeGCD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnowCodeGCD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		153EEC24207C9B9F0063A3AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		153EEC25207C9B9F0063A3AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		153EEC27207C9B9F0063A3AC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		153EEC28207C9B9F0063A3AC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		153EEC2B207C9B9F0063A3AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		153EEC2D207C9B9F0063A3AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		153EEC30207C9B9F0063A3AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		153EEC32207C9B9F0063A3AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		153EEC33207C9B9F0063A3AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		153EEC39207C9B9F0063A3AC /* SnowCodeGCDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnowCodeGCDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		153EEC3D207C9B9F0063A3AC /* SnowCodeGCDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnowCodeGCDTests.m; sourceTree = "<group>"; };
+		153EEC3F207C9B9F0063A3AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		153EEC44207C9B9F0063A3AC /* SnowCodeGCDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnowCodeGCDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		153EEC48207C9B9F0063A3AC /* SnowCodeGCDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnowCodeGCDUITests.m; sourceTree = "<group>"; };
+		153EEC4A207C9B9F0063A3AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		153EEC1E207C9B9F0063A3AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		153EEC36207C9B9F0063A3AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		153EEC41207C9B9F0063A3AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		153EEC18207C9B9F0063A3AC = {
+			isa = PBXGroup;
+			children = (
+				153EEC23207C9B9F0063A3AC /* SnowCodeGCD */,
+				153EEC3C207C9B9F0063A3AC /* SnowCodeGCDTests */,
+				153EEC47207C9B9F0063A3AC /* SnowCodeGCDUITests */,
+				153EEC22207C9B9F0063A3AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		153EEC22207C9B9F0063A3AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				153EEC21207C9B9F0063A3AC /* SnowCodeGCD.app */,
+				153EEC39207C9B9F0063A3AC /* SnowCodeGCDTests.xctest */,
+				153EEC44207C9B9F0063A3AC /* SnowCodeGCDUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		153EEC23207C9B9F0063A3AC /* SnowCodeGCD */ = {
+			isa = PBXGroup;
+			children = (
+				153EEC24207C9B9F0063A3AC /* AppDelegate.h */,
+				153EEC25207C9B9F0063A3AC /* AppDelegate.m */,
+				153EEC27207C9B9F0063A3AC /* ViewController.h */,
+				153EEC28207C9B9F0063A3AC /* ViewController.m */,
+				153EEC2A207C9B9F0063A3AC /* Main.storyboard */,
+				153EEC2D207C9B9F0063A3AC /* Assets.xcassets */,
+				153EEC2F207C9B9F0063A3AC /* LaunchScreen.storyboard */,
+				153EEC32207C9B9F0063A3AC /* Info.plist */,
+				153EEC33207C9B9F0063A3AC /* main.m */,
+			);
+			path = SnowCodeGCD;
+			sourceTree = "<group>";
+		};
+		153EEC3C207C9B9F0063A3AC /* SnowCodeGCDTests */ = {
+			isa = PBXGroup;
+			children = (
+				153EEC3D207C9B9F0063A3AC /* SnowCodeGCDTests.m */,
+				153EEC3F207C9B9F0063A3AC /* Info.plist */,
+			);
+			path = SnowCodeGCDTests;
+			sourceTree = "<group>";
+		};
+		153EEC47207C9B9F0063A3AC /* SnowCodeGCDUITests */ = {
+			isa = PBXGroup;
+			children = (
+				153EEC48207C9B9F0063A3AC /* SnowCodeGCDUITests.m */,
+				153EEC4A207C9B9F0063A3AC /* Info.plist */,
+			);
+			path = SnowCodeGCDUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		153EEC20207C9B9F0063A3AC /* SnowCodeGCD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 153EEC4D207C9B9F0063A3AC /* Build configuration list for PBXNativeTarget "SnowCodeGCD" */;
+			buildPhases = (
+				153EEC1D207C9B9F0063A3AC /* Sources */,
+				153EEC1E207C9B9F0063A3AC /* Frameworks */,
+				153EEC1F207C9B9F0063A3AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnowCodeGCD;
+			productName = SnowCodeGCD;
+			productReference = 153EEC21207C9B9F0063A3AC /* SnowCodeGCD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		153EEC38207C9B9F0063A3AC /* SnowCodeGCDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 153EEC50207C9B9F0063A3AC /* Build configuration list for PBXNativeTarget "SnowCodeGCDTests" */;
+			buildPhases = (
+				153EEC35207C9B9F0063A3AC /* Sources */,
+				153EEC36207C9B9F0063A3AC /* Frameworks */,
+				153EEC37207C9B9F0063A3AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				153EEC3B207C9B9F0063A3AC /* PBXTargetDependency */,
+			);
+			name = SnowCodeGCDTests;
+			productName = SnowCodeGCDTests;
+			productReference = 153EEC39207C9B9F0063A3AC /* SnowCodeGCDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		153EEC43207C9B9F0063A3AC /* SnowCodeGCDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 153EEC53207C9B9F0063A3AC /* Build configuration list for PBXNativeTarget "SnowCodeGCDUITests" */;
+			buildPhases = (
+				153EEC40207C9B9F0063A3AC /* Sources */,
+				153EEC41207C9B9F0063A3AC /* Frameworks */,
+				153EEC42207C9B9F0063A3AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				153EEC46207C9B9F0063A3AC /* PBXTargetDependency */,
+			);
+			name = SnowCodeGCDUITests;
+			productName = SnowCodeGCDUITests;
+			productReference = 153EEC44207C9B9F0063A3AC /* SnowCodeGCDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		153EEC19207C9B9F0063A3AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = com.bl.DaoJia;
+				TargetAttributes = {
+					153EEC20207C9B9F0063A3AC = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					153EEC38207C9B9F0063A3AC = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 153EEC20207C9B9F0063A3AC;
+					};
+					153EEC43207C9B9F0063A3AC = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 153EEC20207C9B9F0063A3AC;
+					};
+				};
+			};
+			buildConfigurationList = 153EEC1C207C9B9F0063A3AC /* Build configuration list for PBXProject "SnowCodeGCD" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 153EEC18207C9B9F0063A3AC;
+			productRefGroup = 153EEC22207C9B9F0063A3AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				153EEC20207C9B9F0063A3AC /* SnowCodeGCD */,
+				153EEC38207C9B9F0063A3AC /* SnowCodeGCDTests */,
+				153EEC43207C9B9F0063A3AC /* SnowCodeGCDUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		153EEC1F207C9B9F0063A3AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				153EEC31207C9B9F0063A3AC /* LaunchScreen.storyboard in Resources */,
+				153EEC2E207C9B9F0063A3AC /* Assets.xcassets in Resources */,
+				153EEC2C207C9B9F0063A3AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		153EEC37207C9B9F0063A3AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		153EEC42207C9B9F0063A3AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		153EEC1D207C9B9F0063A3AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				153EEC29207C9B9F0063A3AC /* ViewController.m in Sources */,
+				153EEC34207C9B9F0063A3AC /* main.m in Sources */,
+				153EEC26207C9B9F0063A3AC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		153EEC35207C9B9F0063A3AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				153EEC3E207C9B9F0063A3AC /* SnowCodeGCDTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		153EEC40207C9B9F0063A3AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				153EEC49207C9B9F0063A3AC /* SnowCodeGCDUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		153EEC3B207C9B9F0063A3AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 153EEC20207C9B9F0063A3AC /* SnowCodeGCD */;
+			targetProxy = 153EEC3A207C9B9F0063A3AC /* PBXContainerItemProxy */;
+		};
+		153EEC46207C9B9F0063A3AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 153EEC20207C9B9F0063A3AC /* SnowCodeGCD */;
+			targetProxy = 153EEC45207C9B9F0063A3AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		153EEC2A207C9B9F0063A3AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				153EEC2B207C9B9F0063A3AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		153EEC2F207C9B9F0063A3AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				153EEC30207C9B9F0063A3AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		153EEC4B207C9B9F0063A3AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		153EEC4C207C9B9F0063A3AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		153EEC4E207C9B9F0063A3AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SnowCodeGCD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bl.DaoJia.SnowCodeGCD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		153EEC4F207C9B9F0063A3AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SnowCodeGCD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bl.DaoJia.SnowCodeGCD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		153EEC51207C9B9F0063A3AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SnowCodeGCDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bl.DaoJia.SnowCodeGCDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnowCodeGCD.app/SnowCodeGCD";
+			};
+			name = Debug;
+		};
+		153EEC52207C9B9F0063A3AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SnowCodeGCDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bl.DaoJia.SnowCodeGCDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnowCodeGCD.app/SnowCodeGCD";
+			};
+			name = Release;
+		};
+		153EEC54207C9B9F0063A3AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SnowCodeGCDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bl.DaoJia.SnowCodeGCDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SnowCodeGCD;
+			};
+			name = Debug;
+		};
+		153EEC55207C9B9F0063A3AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SnowCodeGCDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bl.DaoJia.SnowCodeGCDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SnowCodeGCD;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		153EEC1C207C9B9F0063A3AC /* Build configuration list for PBXProject "SnowCodeGCD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				153EEC4B207C9B9F0063A3AC /* Debug */,
+				153EEC4C207C9B9F0063A3AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		153EEC4D207C9B9F0063A3AC /* Build configuration list for PBXNativeTarget "SnowCodeGCD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				153EEC4E207C9B9F0063A3AC /* Debug */,
+				153EEC4F207C9B9F0063A3AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		153EEC50207C9B9F0063A3AC /* Build configuration list for PBXNativeTarget "SnowCodeGCDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				153EEC51207C9B9F0063A3AC /* Debug */,
+				153EEC52207C9B9F0063A3AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		153EEC53207C9B9F0063A3AC /* Build configuration list for PBXNativeTarget "SnowCodeGCDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				153EEC54207C9B9F0063A3AC /* Debug */,
+				153EEC55207C9B9F0063A3AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 153EEC19207C9B9F0063A3AC /* Project object */;
+}
