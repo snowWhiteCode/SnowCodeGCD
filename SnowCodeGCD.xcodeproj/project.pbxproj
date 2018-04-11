@@ -15,6 +15,10 @@
 		153EEC34207C9B9F0063A3AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 153EEC33207C9B9F0063A3AC /* main.m */; };
 		153EEC3E207C9B9F0063A3AC /* SnowCodeGCDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 153EEC3D207C9B9F0063A3AC /* SnowCodeGCDTests.m */; };
 		153EEC49207C9B9F0063A3AC /* SnowCodeGCDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 153EEC48207C9B9F0063A3AC /* SnowCodeGCDUITests.m */; };
+		153EEC5D207CA2A40063A3AC /* PthreadsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 153EEC5C207CA2A30063A3AC /* PthreadsViewController.m */; };
+		153EEC63207CA2E50063A3AC /* NSThreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 153EEC62207CA2E50063A3AC /* NSThreadViewController.m */; };
+		153EEC66207CA2F10063A3AC /* NSOperationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 153EEC65207CA2F10063A3AC /* NSOperationViewController.m */; };
+		153EEC69207CA2FB0063A3AC /* GCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 153EEC68207CA2FB0063A3AC /* GCDViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		153EEC44207C9B9F0063A3AC /* SnowCodeGCDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnowCodeGCDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		153EEC48207C9B9F0063A3AC /* SnowCodeGCDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnowCodeGCDUITests.m; sourceTree = "<group>"; };
 		153EEC4A207C9B9F0063A3AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		153EEC5B207CA2A30063A3AC /* PthreadsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PthreadsViewController.h; sourceTree = "<group>"; };
+		153EEC5C207CA2A30063A3AC /* PthreadsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PthreadsViewController.m; sourceTree = "<group>"; };
+		153EEC61207CA2E50063A3AC /* NSThreadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSThreadViewController.h; sourceTree = "<group>"; };
+		153EEC62207CA2E50063A3AC /* NSThreadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSThreadViewController.m; sourceTree = "<group>"; };
+		153EEC64207CA2F10063A3AC /* NSOperationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSOperationViewController.h; sourceTree = "<group>"; };
+		153EEC65207CA2F10063A3AC /* NSOperationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSOperationViewController.m; sourceTree = "<group>"; };
+		153EEC67207CA2FB0063A3AC /* GCDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDViewController.h; sourceTree = "<group>"; };
+		153EEC68207CA2FB0063A3AC /* GCDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,8 +148,48 @@
 		153EEC56207C9BC00063A3AC /* SnowCodeGCD */ = {
 			isa = PBXGroup;
 			children = (
+				153EEC5E207CA2D30063A3AC /* GCD */,
+				153EEC60207CA2D30063A3AC /* NSOperation */,
+				153EEC5F207CA2D30063A3AC /* NSThread */,
+				153EEC5A207CA2A30063A3AC /* Pthreads */,
 			);
 			path = SnowCodeGCD;
+			sourceTree = "<group>";
+		};
+		153EEC5A207CA2A30063A3AC /* Pthreads */ = {
+			isa = PBXGroup;
+			children = (
+				153EEC5B207CA2A30063A3AC /* PthreadsViewController.h */,
+				153EEC5C207CA2A30063A3AC /* PthreadsViewController.m */,
+			);
+			path = Pthreads;
+			sourceTree = "<group>";
+		};
+		153EEC5E207CA2D30063A3AC /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				153EEC67207CA2FB0063A3AC /* GCDViewController.h */,
+				153EEC68207CA2FB0063A3AC /* GCDViewController.m */,
+			);
+			path = GCD;
+			sourceTree = "<group>";
+		};
+		153EEC5F207CA2D30063A3AC /* NSThread */ = {
+			isa = PBXGroup;
+			children = (
+				153EEC61207CA2E50063A3AC /* NSThreadViewController.h */,
+				153EEC62207CA2E50063A3AC /* NSThreadViewController.m */,
+			);
+			path = NSThread;
+			sourceTree = "<group>";
+		};
+		153EEC60207CA2D30063A3AC /* NSOperation */ = {
+			isa = PBXGroup;
+			children = (
+				153EEC64207CA2F10063A3AC /* NSOperationViewController.h */,
+				153EEC65207CA2F10063A3AC /* NSOperationViewController.m */,
+			);
+			path = NSOperation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,9 +325,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				153EEC5D207CA2A40063A3AC /* PthreadsViewController.m in Sources */,
 				153EEC29207C9B9F0063A3AC /* ViewController.m in Sources */,
 				153EEC34207C9B9F0063A3AC /* main.m in Sources */,
 				153EEC26207C9B9F0063A3AC /* AppDelegate.m in Sources */,
+				153EEC69207CA2FB0063A3AC /* GCDViewController.m in Sources */,
+				153EEC63207CA2E50063A3AC /* NSThreadViewController.m in Sources */,
+				153EEC66207CA2F10063A3AC /* NSOperationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
