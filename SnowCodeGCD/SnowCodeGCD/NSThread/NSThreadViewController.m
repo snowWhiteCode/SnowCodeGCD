@@ -62,7 +62,7 @@ static int number = 0;
     NSLog(@"%d",number);
 }
 
-#pragma mark -threadEvent
+#pragma mark - threadEvent
 -(void)oneThreadDoSoming:(NSNumber*)num
 {
     [self performSelectorOnMainThread:@selector(doSomethingMain) withObject:nil waitUntilDone:YES];//在其他线程中指定在主线程执行(在子线程中指定在主线程刷新UI)
@@ -99,17 +99,17 @@ static int number = 0;
 
 -(void)synchronizedDoSoming
 {
-    NSMutableArray *arr = [[NSMutableArray alloc]init];
-    while (number>0) {
+//    NSMutableArray *arr = [[NSMutableArray alloc]init];
+//    while (number>0) {
         @synchronized(self) { // 需要锁定的代码
-            [NSThread sleepForTimeInterval:1];//(此线程休眠是为了更直观的查看顺序)
+//            [NSThread sleepForTimeInterval:1];//(此线程休眠是为了更直观的查看顺序)
             NSLog(@"threadName:%@ count:%d ",[NSThread currentThread].name, number);
-            [arr addObject:[NSThread currentThread].name];
-            if(arr.count/3 >= 3){
-                break;
-            }
+//            [arr addObject:[NSThread currentThread].name];
+//            if(arr.count/3 >= 3){
+//                break;
+//            }
         }
-    }
+//    }
 }
 
 -(void)NSConditionDoSoming
@@ -142,7 +142,7 @@ static int number = 0;
         [self.condition unlock];
     }
 }
-#pragma mark -UITableViewDelegate
+#pragma mark - UITableViewDelegate
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     return self.dataSource.count;
@@ -154,7 +154,7 @@ static int number = 0;
     cell.textLabel.text = self.dataSource[indexPath.row];
     return cell;
 }
-#pragma mark -UITableViewDataSource
+#pragma mark - UITableViewDataSource
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
@@ -228,7 +228,7 @@ static int number = 0;
 
 
 
-#pragma mark -getter/setter
+#pragma mark - getter/setter
 /*
  //selector ：线程执行的方法，这个selector只能有一个参数，而且不能有返回值。
  //target  ：selector消息发送的对象
